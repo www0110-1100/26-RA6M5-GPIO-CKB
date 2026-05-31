@@ -1,0 +1,3 @@
+# RASC version and installation file
+Unknown
+D:\E2stdio\e2stdio_vs\eclipse\rascc.exe

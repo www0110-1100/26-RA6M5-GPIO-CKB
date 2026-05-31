@@ -1,0 +1,38 @@
+﻿# ==================== .gitignore ====================
+# Renesas RA6M5 + Keil 工程 gitignore
+
+# 编译输出
+Objects/
+Listings/
+DebugConfig/
+
+# RTE 运行时环境（可重新生成）
+RTE/
+
+# IDE 用户配置
+.settings/
+.vscode/
+*.uvguix.*
+*.uvoptx
+
+# RASC 生成器输出
+output.rasc
+ra_cfg.txt
+
+# Event Recorder
+EventRecorderStub.scvd
+
+# J-Link 脚本
+JLinkSettings.JLinkScript
+
+# PDF 手册（大文件）
+*.pdf
+
+# 二进制输出
+*.axf
+*.bin
+*.hex
+*.map
+*.d
+*.o
+*.crf
